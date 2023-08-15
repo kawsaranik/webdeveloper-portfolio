@@ -16,17 +16,18 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
+  cursor: pointer;
 }
-.section-titel{
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+.section-titel {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
-.section-description{
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
 /* nav related styles */
 nav {
@@ -88,30 +89,90 @@ nav a {
   margin-top: 5px;
   margin-bottom: 20px;
 }
-.banner-description{
-    color: #474747;
+.banner-description {
+  color: #474747;
 }
 
 /* main section styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-
+main section {
+  margin-top: 130px;
+}
 /* about section styles */
-.about{
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px ;
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px;
 }
-.about-info-container{
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
 }
-#what-i-do-description{
+
+/* skills related styles */
+
+#what-i-do-description {
   padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+}
+.skills {
+  padding: 30px;
+  gap: 24px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  color: #757575;
+}
+
+/* Resume Section Styles */
+
+.resume-column-titel {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-column-titel {
+  text-align: center;
+}
+.resume-container {
+  display: flex;
+  gap: 30px;
+}
+.resume-item-titel {
+  color: #474747;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume-item-insitute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.resume-item-insitute,
+.resume-item-description {
+  color: #757575;
+}
+.resume-container hr {
+  margin: 50px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
