@@ -95,9 +95,6 @@ nav a {
   transition: transform 0.3s ease;
 }
 
-.banner:hover .profile-picture {
-  transform: scale(1.15);
-}
 
 .banner-greeting {
   font-size: 45px;
@@ -155,10 +152,11 @@ main section {
   display: flex;
 }
 .skills {
-  padding: 30px;
+  flex-direction: row;
+  padding: 10px;
   gap: 24px;
-  width: 415px;
-  height: 470px;
+  width: 315px;
+  height: 270px;
   margin-right: 20px;
   border-radius: 5px;
   background: linear-gradient(35deg, #ffffff 0%, #ffc369 100%);
@@ -263,6 +261,7 @@ footer {
   
   nav,
   nav > ul,
+  ul,
   .banner,
   .skills-container,
   .resume-container,
@@ -270,6 +269,17 @@ footer {
   footer {
       flex-direction: column;
   }
+  
+  .skills-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .skills, .skill-title, .skill-description,{
+    align-items: center;
+    text-align: center;
+  }
+  
 
   nav > ul {
       gap: 10px;
