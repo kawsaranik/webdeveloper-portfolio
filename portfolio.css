@@ -259,15 +259,15 @@ footer {
       background-image: none;
   }
   
+  nav,
+  nav > ul,
+  ul,
   .banner,
   .skills-container,
   .resume-container,
   .about-info-container,
   footer {
       flex-direction: column;
-  }
-  #top-btn, .nav-title{
-    display: none;
   }
   .skills-container{
     flex-direction: column;
