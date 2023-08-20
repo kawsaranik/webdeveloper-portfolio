@@ -259,9 +259,6 @@ footer {
       background-image: none;
   }
   
-  nav,
-  nav > ul,
-  ul,
   .banner,
   .skills-container,
   .resume-container,
@@ -269,7 +266,9 @@ footer {
   footer {
       flex-direction: column;
   }
-  
+  #top-btn, .nav-title{
+    display: none;
+  }
   .skills-container{
     flex-direction: column;
     align-items: center;
